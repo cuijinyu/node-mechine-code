@@ -1,0 +1,24 @@
+{
+  "name": "node-mechine-code",
+  "version": "0.0.1",
+  "description": "To get one mechine which is in a class by itself.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "install": "node-gyp rebuild"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cuijinyu/node-mechine-code.git"
+  },
+  "keywords": [
+    "mechine-code"
+  ],
+  "author": "cuijinyu",
+  "license": "MIT",
+  "gypfile": true,
+  "bugs": {
+    "url": "https://github.com/cuijinyu/node-mechine-code/issues"
+  },
+  "homepage": "https://github.com/cuijinyu/node-mechine-code#readme"
+}
