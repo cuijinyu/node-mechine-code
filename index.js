@@ -1,31 +1,32 @@
 const os = require('os');
 const osType = os.type();
 const crypto = require('crypto');
-
+let getHardWare = require('./build/Release/mechine_code.node');
 const secret = "nmc";
 
 function getHardWareInfo() {
+    let info;
     switch (osType) {
-
         /**
-         * 当系统类型为Windows时
+         * 锟斤拷系统锟斤拷锟斤拷为Windows时
          **/
         case 'Windows_NT':
-            let getHardWare = require('./build/Release/node_windows.node');
-            let infos = getHardWare.exports();
+            infos = getHardWare.exports();
             return infos;
             break;
 
         /**
-         * 当系统类型为Linux时
+         * 锟斤拷系统锟斤拷锟斤拷为Linux时
          **/
         case 'Linux':
+            infos = getHardWare.exports();
             break;
 
         /**
-         * 当系统类型为Mac OS时
+         * 锟斤拷系统锟斤拷锟斤拷为Mac OS时
          **/
         case 'Darwin':
+            infos = getHardWare.exports();
             break;
     }
 }
