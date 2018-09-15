@@ -10,7 +10,8 @@
 
 ## 支持平台
 
-暂时只支持Windows
+- Windows、Linux
+- 即将支持Mac OS
 
 ## 编译
 ```
